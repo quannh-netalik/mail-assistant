@@ -1,7 +1,9 @@
 import { type FC } from "react";
 
+import LinkAccountButton from "~/components/link-account-button";
+
 const Home: FC = async () => {
-  return <div>h1</div>;
+  return <LinkAccountButton />;
 };
 
 export default Home;
